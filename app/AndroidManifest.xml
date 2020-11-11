@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pt.atp.playground">
+    package="pt.atp.bobi">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:theme="@style/Theme.ATP">
 
         <activity android:name=".LoginActivity"
-            android:theme="@style/Theme.ATP.NoActionBar">
+                  android:theme="@style/Theme.ATP.NoActionBar">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,6 @@
 
         <activity android:name=".MainActivity" />
         <activity android:name=".DetailsActivity" />
-
     </application>
 
 </manifest>
