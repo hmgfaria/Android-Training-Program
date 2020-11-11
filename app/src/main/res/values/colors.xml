@@ -9,15 +9,15 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- Color Palette -->
-    <color name="colorPrimaryLight">#757CE8</color>
-    <color name="colorPrimaryMain">#3F50B5</color>
-    <color name="colorPrimaryDark">#002884</color>
-    <color name="colorPrimaryDark60">#99002884</color>
+    <color name="colorPrimaryLight">#E57373</color>
+    <color name="colorPrimaryMain">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorPrimaryDark60">#B71C1C</color>
     <color name="colorPrimaryContrastText">#FFFFFF</color>
     <color name="colorPrimaryDarkContrastText">#BDBDBD</color>
 
-    <color name="colorSecondaryLight">#FF7961</color>
-    <color name="colorSecondaryMain">#F44336</color>
-    <color name="colorSecondaryDark">#BA000D</color>
+    <color name="colorSecondaryLight">#FFCA28</color>
+    <color name="colorSecondaryMain">#FFB300</color>
+    <color name="colorSecondaryDark">#00BCD4</color>
     <color name="colorSecondaryContrastText">#000000</color>
 </resources>
