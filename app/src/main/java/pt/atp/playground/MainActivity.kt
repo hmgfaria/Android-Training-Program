@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 
 private const val TAG = "MainActivity"
@@ -21,6 +22,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val username = intent.extras?.getString(EXTRA_USERNAME, getString(R.string.welcome_default))
+        findViewById<TextView>(R.id.hello).text = getString(R.string.welcome_username, username)
 
         findViewById<Button>(R.id.open_camera).setOnClickListener {
             openNativeCamera()

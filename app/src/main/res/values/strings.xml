@@ -2,6 +2,7 @@
     <string name="app_name">Cooper</string>
 
     <string name="welcome">Hello Cooper 👋</string>
+    <string name="welcome_username">Hello %s 👋</string>
     <string name="welcome_default">World</string>
 
     <!-- Login -->

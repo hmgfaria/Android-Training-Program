@@ -34,7 +34,9 @@ class LoginActivity : AppCompatActivity() {
 
     private fun validateCredentialsAndRedirect() {
         if (areCredentialsValid()) {
+            val username = findViewById<EditText>(R.id.tet_username).text.toString()
             val intent = Intent(this, MainActivity::class.java)
+            intent.putExtra(EXTRA_USERNAME, username)
             startActivity(intent)
             finish()
         }
