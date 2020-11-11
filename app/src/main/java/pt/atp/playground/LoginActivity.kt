@@ -3,6 +3,7 @@ package pt.atp.playground
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.inputmethod.EditorInfo
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -18,6 +19,14 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun setup() {
+
+        findViewById<EditText>(R.id.tet_password).setOnEditorActionListener { _, actionId, _ ->
+            if (actionId == EditorInfo.IME_ACTION_DONE) {
+                validateCredentialsAndRedirect()
+            }
+            true
+        }
+
         findViewById<Button>(R.id.btn_authenticate).setOnClickListener {
             validateCredentialsAndRedirect()
         }

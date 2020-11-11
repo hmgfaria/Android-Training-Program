@@ -47,7 +47,7 @@
         android:ems="10"
         android:fontFamily="sans-serif-light"
         android:hint="@string/hint_password"
-        android:imeOptions="actionGo"
+        android:imeOptions="actionDone"
         android:inputType="textPassword"
         android:textColorHint="#B71C1C" />
 
